@@ -1,0 +1,4 @@
+How to work
+This command is used for create an ec2 instace using the AWS CLI (AWS command line)
+
+aws ec2 run-instances --image-id ami-0c47f47ca799233f9 --count 1 --instance-type t2.micro --key-name MyKeyPair --security-group-ids sg-05d0a67009b8aaf61 --subnet-id subnet-00f3d49f05faf7127
